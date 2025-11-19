@@ -19,7 +19,7 @@ cd robosys2025
 # 実行権限の付与
 chmod +x word
 # 使い方
-実行方法の例
+実行方法の例 "\n"
 echo example | ./word
 出力例
 8 40320
