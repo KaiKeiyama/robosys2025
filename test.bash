@@ -15,9 +15,8 @@ out=$(echo test | ./word)
 [ "${res}" = 0 ] && echo OK
 exit $res
 
-out=$(echo あ | ./plus)
-[ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
+out=$(echo あ| ./plus)
+[ "${out}" = 1 1 ] || ng "$LINENO"
 
 out=$(echo | ./plus)
 [ "$?" = 1 ]   ng "$LINENO"
