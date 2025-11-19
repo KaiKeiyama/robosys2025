@@ -17,20 +17,20 @@ Ubuntu 24.04
 # リポジトリをクローン
 git clone git@github.com:KaiKeiyama/robosys2025.git
 # ディレクトリに移動
-$cd robosys2025
+```$cd robosys2025```
 # 実行権限の付与
-chmod +x word
+```chmod +x word```
 # 使い方
 - 実行方法の例 
  
-./word
+```$ ./word```
 
-example
+```example```
 
 文字を入力したらCtrl+Dで出力
 - 出力例
 
-8 40320
+``8 40320``
 
 文字数、文字数の階乗の順に出力されます。
 # ライセンス
