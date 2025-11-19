@@ -1,0 +1,15 @@
+#!/home/kai69/anaconda3/bin/python3
+#SPDX-FileCopyrightText: 2025 KaiKeiyama
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+import math
+
+def main():
+        word = sys.stdin.read()
+        length = len(word)
+        result = math.factorial(length)
+        print(length,result)
+
+if __name__=="__main__":
+	main()
