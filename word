@@ -9,7 +9,7 @@ def main():
         word = sys.stdin.read()
         length = len(word)
         result = math.factorial(length)
-        print(length,result)
+        print(f"\n{length},{result}")
 
 if __name__=="__main__":
 	main()
