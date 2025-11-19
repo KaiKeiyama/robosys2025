@@ -19,8 +19,8 @@ cd robosys2025
 # 実行権限の付与
 chmod +x word
 # 使い方
-- 実行方法の例 
-- echo example | ./word
+ 実行方法の例 
+\\n echo example | ./word
 - 出力例
 - 8 40320
 - 文字数、文字数の階乗の順に出力されます。
