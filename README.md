@@ -17,7 +17,7 @@ Ubuntu 24.04
 # リポジトリをクローン
 git clone git@github.com:KaiKeiyama/robosys2025.git
 # ディレクトリに移動
-cd robosys2025
+'''cd''' robosys2025
 # 実行権限の付与
 chmod +x word
 # 使い方
