@@ -12,7 +12,7 @@
 Python　テスト済み: 3.7~3.12
 # テスト環境
 Ubuntu 24.04
-#利用方法
+# 利用方法
 次の手順で利用してください。
 # リポジトリをクローン
 git clone git@github.com:KaiKeiyama/robosys2025.git
