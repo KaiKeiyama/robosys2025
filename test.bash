@@ -13,23 +13,30 @@ out=$(echo -n test | ./word)
 [ "${out}" =  4 24] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
-exit $res
+
 
 out=$(echo -n あ| ./word)
 [ "${out}" = 1 1 ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
-exit $res
+
 
 out=$(echo -n 1 | ./word)
 [ "$?" = 1 ]   ng "$LINENO"
 [ "${out}" = 1 1 ] || ng "$LINENO"
 
 [ "$res" = 0 ] && echo OK
-exit $res
+
 
 out=$(echo -n  | ./word)
 [ "${out}" =  0 1 ] || ng "$LINENO"
+
+[ "${res}" = 0 ] && echo OK
+
+
+
+out=$(echo -n $tes | ./word)
+[ "${out}" =  4 24] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 exit $res
