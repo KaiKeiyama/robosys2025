@@ -14,11 +14,11 @@ Python　テスト済み: 3.7~3.12
 Ubuntu 24.04
 # 利用方法
 次の手順で利用してください。
-# リポジトリをクローン
+- リポジトリをクローン
 `$ git clone git@github.com:KaiKeiyama/robosys2025.git`
-# ディレクトリに移動
+- ディレクトリに移動
 `$ cd robosys2025`
-# 実行権限の付与
+- 実行権限の付与
 `$ chmod +x word`
 # 使い方
 - 実行方法の例 
