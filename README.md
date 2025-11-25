@@ -1,6 +1,5 @@
 # robosys2025
-ロボットシステム学課題1
-# wordコマンド
+# wordcombination
 文章の文字数をカウントして文字数の階乗を導くコマンド
 ![test](https://github.com/KaiKeiyama/robosys2025/actions/workflows/test.yml/badge.svg)
 # 概要
