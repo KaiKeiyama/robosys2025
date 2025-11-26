@@ -42,11 +42,11 @@ pythonのコードを作成するにあたり、以下の資料を参考にし�
 
 `len関数`の使用方法
 
-*[(https://note.nkmk.me/python-len-usage/)]
+(https://note.nkmk.me/python-len-usage/)
 
 `math.factorial()関数`の使用方法
 
-*[(https://note.nkmk.me/python-math-factorial-permutations-combinations/#mathfactorial)]
+(https://note.nkmk.me/python-math-factorial-permutations-combinations/#mathfactorial)
 # ライセンス
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - © 2025 Kai Keiyama
