@@ -14,7 +14,7 @@ Ubuntu 24.04
 次の手順で利用してください。
 - リポジトリをクローン
 
-`$ ```git clone git@github.com:KaiKeiyama/robosys2025.git````
+`$ git clone git@github.com:KaiKeiyama/robosys2025.git`
 - ディレクトリに移動
 
 `$ cd robosys2025`
