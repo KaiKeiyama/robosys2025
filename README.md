@@ -36,6 +36,13 @@ Ubuntu 24.04
 `8 40320`
 
 文字数、文字数の階乗の順に出力されます。
+
+#参考文献
+pythonのコードを作成するにあたり、以下の資料を参考にしました。
+`len関数`の使用方法
+*[リンク](https://note.nkmk.me/python-len-usage/)
+`math.factorial()関数`の使用方法
+*[リンク](https://note.nkmk.me/python-math-factorial-permutations-combinations/#mathfactorial)
 # ライセンス
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - © 2025 Kai Keiyama
