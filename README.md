@@ -1,6 +1,6 @@
 # word
 文章の文字数をカウントして文字数の階乗を導くコマンド
-![test](https://github.com/KaiKeiyama/robosys2025/actions/workflows/test.yml/badge.svg)
+[![test](https://github.com/KaiKeiyama/robosys2025/actions/workflows/test.yml/badge.svg)](https://github.com/KaiKeiyama/robosys2025/actions/workflows/test.yml)
 # 概要
 - wordコマンドは、入力されたテキストの文字数(空白を含む)をカウントして、階乗にするツールです。
 - 文字の組み合わせの総数を数えるときに役立ちます。
