@@ -6,10 +6,13 @@ import sys
 import math
 
 def main():
-        word = sys.stdin.read()
+    try:
+        word = input()
         length = len(word)
         result = math.factorial(length)
         print(f"\n{length},{result}")
+    except EOFError:
+        pass
 
 if __name__=="__main__":
-	main()
+    main()

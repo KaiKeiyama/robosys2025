@@ -12,13 +12,10 @@ Python　テスト済み: 3.7 ~ 3.12
 Ubuntu 24.04
 # 利用方法
 次の手順で利用してください。
-- リポジトリをクローン
 
 `$ git clone git@github.com:KaiKeiyama/robosys2025.git #リポジトリをクローン`
-- ディレクトリに移動
 
 `$ cd robosys2025　#ディレクトリに移動`
-- 実行権限の付与
 
 `$ chmod +x word　#実行権限の付与`
 # 使い方
@@ -28,7 +25,7 @@ Ubuntu 24.04
 
 `example`
 
-文字を入力したらCtrl+Dで出力
+文字を入力してEnterを押して出力
 - 出力例
 
 `8 40320`
