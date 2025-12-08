@@ -28,10 +28,13 @@ $ chmod +x word　#実行権限の付与
 # 使い方
 - 実行方法の例 
 
-`$ ./word`
+```
+$ ./word
 
-`example`
+example
+```
 
+- 出力例
 `8 40320`
 
 
