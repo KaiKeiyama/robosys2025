@@ -12,12 +12,10 @@ Python　テスト済み: 3.7 ~ 3.12
 Ubuntu 24.04
 # 利用方法
 次の手順で利用してください。
-
-`$ git clone git@github.com:KaiKeiyama/robosys2025.git #リポジトリをクローン`
-
-`$ cd robosys2025　#ディレクトリに移動`
-
-`$ chmod +x word　#実行権限の付与`
+```bash
+$ git clone git@github.com:KaiKeiyama/robosys2025.git #リポジトリをクローン
+$ cd robosys2025　#ディレクトリに移動
+$ chmod +x word　#実行権限の付与```
 # 使い方
 - 実行方法の例 
  
