@@ -22,7 +22,7 @@ $ cd robosys2025　#ディレクトリに移動
 ```
 
 ```
-`$ chmod +x word　#実行権限の付与`
+$ chmod +x word　#実行権限の付与
 ```
 
 # 使い方
