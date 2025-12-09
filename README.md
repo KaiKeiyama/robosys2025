@@ -1,10 +1,9 @@
-# word
-文章の文字数をカウントして文字数の階乗を導くコマンド
+# probabirity
+確率の順列と組合せを求めるコマンド
 [![test](https://github.com/KaiKeiyama/robosys2025/actions/workflows/test.yml/badge.svg)](https://github.com/KaiKeiyama/robosys2025/actions/workflows/test.yml)
 # 概要
-- wordコマンドは、入力されたテキストの文字数(空白を含む)をカウントして、階乗にするツールです。
-- 文字の組み合わせの総数を数えるときに役立ちます。
-- 文字数(空白を含む)と文字数の階乗の表示　
+- probabirityコマンドは、入力された全体の数と選ぶ数から順列と組合せを求めるコマンドです。
+- 確率を求めたいときに役立ちます。　
 　
 # 必要なソフトウェア
 Python　テスト済み: 3.7 ~ 3.12
@@ -29,14 +28,13 @@ $ chmod +x word　#実行権限の付与
 - 実行方法の例 
 
 ```
-$ ./word
-
-example
+$ ./probabirity
+3
+2
 ```
 
 - 出力例
-
-`8 40320`
+`6 \n 3`
 
 
 文字数、文字数の階乗の順に出力されます。

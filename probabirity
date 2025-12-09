@@ -1,0 +1,14 @@
+#!/home/kai69/anaconda3/bin/python3
+#SPDX-FileCopyrightText: 2025 KaiKeiyama
+#SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+import math
+
+n = int(input())
+r = int(input())
+p_count = math.perm(n, r)
+print(f"{p_count}")
+    
+c_count = math.comb(n, r)
+print(f"{c_count}")
