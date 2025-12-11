@@ -9,21 +9,40 @@ ng ( ) {
 
 res=0
 
-#全体の数>選ぶ数の時
-out=$(echo -e "5\n2" | ./probabirity)
+
+out=$(echo  "5 2" | ./probabirity)
 ans="20
 10"
 [ "${out}" =  "${ans}" ] || ng "$LINENO"
 
-[ "${res}" = 0 ] && echo OK
 
-#全体の数<選ぶ数の時
-out=$(echo -e "2\n5" | ./probabirity)
+out=$(echo  "2 5" | ./probabirity)
 ans="0
 0"
 [ "${out}" =  "${ans}" ] || ng "$LINENO"
 
+out=$(echo "2 3 4"  | ./probabirity)
+[ "$?" = 1 ]       || ng "$LINENO"
+[ "${out}" =  "" ] || ng "$LINENO"
+
+
+out=$(echo  "1 3.2" | ./probabirity)
+[ "$?" = 1 ]       || ng "$LINENO"
+[ "${out}" =  "" ] || ng "$LINENO"
+
+out=$(echo   | ./probabirity)
+[ "$?" = 1 ]       || ng "$LINENO"
+[ "${out}" =  "" ] || ng "$LINENO"
+
+
+out=$(echo  あ | ./probabirity)
+[ "$?" = 1 ]       || ng "$LINENO"
+[ "${out}" =  "" ] || ng "$LINENO"
+
+out=$(echo  "{ans}" | ./probabirity)
+[ "$?" = 1 ]       || ng "$LINENO"
+[ "${out}" =  "" ] || ng "$LINENO"
+
+
 [ "${res}" = 0 ] && echo OK
-
-
 exit $res

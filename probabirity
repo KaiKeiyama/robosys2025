@@ -5,8 +5,7 @@
 import sys
 import math
 
-n = int(input())
-r = int(input())
+n, r = map(int, input().split())
 
 p_count = math.perm(n, r)
 print(f"{p_count}")
