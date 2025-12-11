@@ -1,6 +1,6 @@
 #!/home/kai69/anaconda3/bin/python3
-#SPDX-FileCopyrightText: 2025 KaiKeiyama
-#SPDX-License-Identifier: BSD-3-Clause
+# SPDX-FileCopyrightText: 2025 KaiKeiyama
+# SPDX-License-Identifier: BSD-3-Clause
 
 import sys
 import math
