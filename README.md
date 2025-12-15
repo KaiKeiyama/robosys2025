@@ -1,4 +1,4 @@
-# probabirity
+# probabirityコマンド
 確率の順列と組合せを求めるコマンド
 [![test](https://github.com/KaiKeiyama/robosys2025/actions/workflows/test.yml/badge.svg)](https://github.com/KaiKeiyama/robosys2025/actions/workflows/test.yml)
 # 概要
